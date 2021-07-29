@@ -40,16 +40,3 @@ public class BecaUniversitaria{
             return "No se obtuvo diferencia entre las proyecciones, revisar los parámetros de entrada.";
         }
     }
-
-    public static void main(String[] args ){
-    
-        /*System.out.println( "Hello World!" );*/
-        BecaUniversitaria becaUniversitaria = new BecaUniversitaria();
-        System.out.println(becaUniversitaria.calcularInteresSimple());
-        System.out.println(becaUniversitaria.calcularInteresCompuesto());
-        System.out.println(becaUniversitaria.compararInversion(48,10000,2.0));
-    }
-}
-
-
-
